@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Administration Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-lg-3 offset-md-2 mb-5">
+                <h1 class="display-4 text-center mb-3">Администрирование</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    <div id="accordion">
+        <div class="card bg-primary mb-3">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link text-light" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Группа 1
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card bg-secondary">
+                        <div class="card-body left">
+                          <h5 class="card-title text-light">Права, выбранные для группы</h5>
+                          <ul class="text-light">
+                            <li class="card-text">Можно открывать страницу админа</li>
+                            <li class="card-text">Можно добавлять пользователя</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card bg-secondary">
+                        <div class="card-body right">
+                          <h5 class="card-title text-light">Список пользователей группы</h5>
+                          <ul class="text-light">
+                              <li class="card-text">Михаил Иванов (login: Michael)</li>
+                            <li class="card-text">Николай Михайлов (login: Michael)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <table class="table table-striped">
+                    <tr class="bg-primary text-light">
+                        <th>Все права</th>
+                    </tr>
+                    <tbody class="myRights text-light">
+  
+                    </tbody>
+                </table>
+              <table class="table table-striped">
+                  <tr class="bg-primary text-light">
+                      <th>Все пользователи</th>
+                  </tr>
+                  <tbody class="myTable text-light">
+
+                  </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-success mb-3">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Группа 2
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card bg-secondary">
+                        <div class="card-body left_second">
+                          <h5 class="card-title text-light">Права, выбранные для группы</h5>
+                          <ul class="text-light">
+                            <li class="card-text">Можно открывать страницу админа</li>
+                            <li class="card-text">Можно добавлять пользователя</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card bg-secondary">
+                        <div class="card-body right_second">
+                          <h5 class="card-title text-light">Список пользователей группы</h5>
+                          <ul class="text-light">
+                              <li class="card-text">Михаил Иванов (login: Michael)</li>
+                            <li class="card-text">Николай Михайлов (login: Michael)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <table class="table table-striped">
+                    <tr class="bg-success text-light">
+                        <th>Все права</th>
+                    </tr>
+                    <tbody class="myRights_second text-light">
+  
+                    </tbody>
+                </table>
+                <table class="table table-striped">
+                    <tr class="bg-success text-light">
+                        <th>Все пользователи</th>
+                    </tr>
+                    <tbody class="myTable_second text-light">
+  
+                    </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-danger mb-3">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Группа 3
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card bg-secondary">
+                        <div class="card-body left_third">
+                          <h5 class="card-title text-light">Права, выбранные для группы</h5>
+                          <ul class="text-light">
+                            <li class="card-text">Можно открывать страницу админа</li>
+                            <li class="card-text">Можно добавлять пользователя</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card bg-secondary">
+                        <div class="card-body right_third">
+                          <h5 class="card-title text-light">Список пользователей группы</h5>
+                          <ul class="text-light">
+                              <li class="card-text">Михаил Иванов (login: Michael)</li>
+                            <li class="card-text">Николай Михайлов (login: Michael)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <table class="table table-striped">
+                    <tr class="bg-danger text-light">
+                        <th>Все права</th>
+                    </tr>
+                    <tbody class="myRights_third text-light">
+  
+                    </tbody>
+                </table>
+                <table class="table table-striped">
+                    <tr class="bg-danger text-light">
+                        <th>Все пользователи</th>
+                    </tr>
+                    <tbody class="myTable_third text-light">
+  
+                    </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

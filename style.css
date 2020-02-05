@@ -1,0 +1,49 @@
+body {
+    margin-top: 70px;
+    background: #777;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card {
+    padding: .375rem .75rem;
+}
+.card .btn-link {
+    font-size: 1.5rem;
+}
+.card-body {
+    color: #777;
+    padding: 0;
+}
+.card-body p {
+    margin-bottom: 0;
+}
+.card-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.card-body ul {
+    padding-left: 0;
+}
+.card-body ul li {
+    list-style-type: none;
+}
+.card-body ul li:hover {
+    color: #ff7f7f;
+    cursor: pointer;
+}
+.card-text:hover {
+    color: #ff7f7f;
+}
+.table td {
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+.table td:hover {
+    color: #00ff00;
+}
+@media (max-width: 600px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+  }
